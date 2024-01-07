@@ -127,6 +127,13 @@ h3 {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.analyseSection {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/3/34/Arnold_B%C3%B6cklin_-_Die_Toteninsel_V_%28Leipzig%2C_Museum_der_bildenden_K%C3%BCnste%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1%;
+}
+
 .analyse {
     background-color: #111111;
     text-align: center;
@@ -139,7 +146,7 @@ h3 {
     color: white;
 }
 
-.analyse a, .acceuilBtn {
+.analyse a, .accueilBtn {
     color: #111111;
     font-size: 30px;
     border-color: #dddddd;
@@ -149,10 +156,14 @@ h3 {
     padding: 5px;
 }
 
-.analyse a:hover, .acceuilBtn:hover {
+.analyse a:hover, .accueilBtn:hover {
     color: #dddddd;
     border-color: #dddddd;
     background-color: #111111;
+}
+
+.accueilBtn {
+    margin-left: 20px;
 }
 
 .analyseTitle {
@@ -162,10 +173,22 @@ h3 {
 
 .analyseContent {
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #dddddd;
+    display: flex;
+    align-items: center;
+}
+
+.analyseBg {
+    margin-bottom: 18%;
+}
+
+.analyseContent img {
+    height: 500px;
 }
 
 .analyseTxt {
-    padding-bottom: 20px;
+    padding: 20px;
     font-size: 25px;
     text-indent: 50px;
 }
